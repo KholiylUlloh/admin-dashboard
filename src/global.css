@@ -1,15 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "SFProDisplay med";
-    src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
+  font-family: "SFProDisplay med";
+  src: url(./assets/fonts/SF-Pro-Display-Medium.otf);
 }
 
 @font-face {
-    font-family: "SFProDisplay light";
-    src: url(./assets/fonts/SF-Pro-Display-Light.otf);
+  font-family: "SFProDisplay light";
+  src: url(./assets/fonts/SF-Pro-Display-Light.otf);
+}
+
+.activeClassName {
+  color: red;
 }

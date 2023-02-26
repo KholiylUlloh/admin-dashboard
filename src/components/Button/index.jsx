@@ -15,6 +15,7 @@ const CustomButton = ({
   pb,
   onClick,
   width,
+  height,
 }) => {
   return (
     <Button
@@ -30,6 +31,7 @@ const CustomButton = ({
       pb={pb}
       onClick={onClick}
       width={width}
+      height={height}
     >
       {children}
     </Button>
